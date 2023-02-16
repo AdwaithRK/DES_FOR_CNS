@@ -344,56 +344,7 @@ int main()
 	bool is_valid = true;
 	string plain_txt, key;
 
-	//cout << "Enter PLAIN TEXT of EXACTLY 16 character written in hexadecimal : ";
-
 	plain_txt = "2410100524101006";
-
-
-	// do {
-	// 	is_valid = true;
-	// 	cin >> plain_txt;
-
-	// 	if (plain_txt.size() != 16)
-	// 		is_valid = false;
-
-	// 	else
-	// 	{
-	// 		for (int i = 0; i < plain_txt.size(); i++)
-	// 			if (!((plain_txt[i] <= 'f' && plain_txt[i] >= 'a') ||
-	// 				(plain_txt[i] <= 'F' && plain_txt[i] >= 'A') ||
-	// 				(plain_txt[i] >= '0' && plain_txt[i] <= '9')))
-	// 			{
-	// 				is_valid = false;
-	// 				break;
-	// 			}
-	// 	}
-	// 	if (!is_valid)
-	// 		cout << "invalid input, try again : ";
-	// } while (!is_valid);
-
-	// cout << "Enter a KEY of EXACTLY 16 character written in hexadecimal : ";
-
-	// do {
-	// 	is_valid = true;
-	// 	cin >> key;
-
-	// 	if (key.size() != 16)
-	// 		is_valid = false;
-
-	// 	else
-	// 	{
-	// 		for (int i = 0; i < key.size(); i++)
-	// 			if (!((key[i] <= 'f' && key[i] >= 'a') ||
-	// 				(key[i] <= 'F' && key[i] >= 'A') ||
-	// 				(key[i] >= '0' && key[i] <= '9')))
-	// 			{
-	// 				is_valid = false;
-	// 				break;
-	// 			}
-	// 	}
-	// 	if (!is_valid)
-	// 		cout << "invalid input, try again : ";
-	// } while (!is_valid);
 
 	key = "2410100724101008";
 	
